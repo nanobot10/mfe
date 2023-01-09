@@ -8,8 +8,7 @@ on:
       - 'packages/auth/**'
 defaults:
   run:
-    working-directory: packages/f
-f
+    working-directory: packages/auth
 jobs:
   build:
     runs-on: ubuntu-latest
